@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpStockApp.Domain", "HelpStockApp.Domain\HelpStockApp.Domain.csproj", "{FBB294DA-99F8-4BEA-8296-B256CCA9145C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelpStockApp.Domain", "HelpStockApp.Domain\HelpStockApp.Domain.csproj", "{FBB294DA-99F8-4BEA-8296-B256CCA9145C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpStockApp.Domain.Test", "HelpStockApp.Domain.Test\HelpStockApp.Domain.Test.csproj", "{A0C92844-40A6-43E4-BA92-0868F0188F4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpStockApp.API", "HelpStockApp.API\HelpStockApp.API.csproj", "{D6D515D7-DAED-47EA-B385-41D241F9023A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpStockApp.Infra.Data", "HelpStockApp.Infra.Data\HelpStockApp.Infra.Data.csproj", "{A3630789-3F53-4036-B0B5-A9DB9EACA6C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpStockApp.Infra.IOC", "HelpStockApp.Infra.IOC\HelpStockApp.Infra.IOC.csproj", "{C1E53DA8-0723-40F4-A306-EEC628FFFA56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpStockApp.Application", "HelpStockApp.Application\HelpStockApp.Application.csproj", "{87BC5E6E-A9B1-46C2-9531-FCF39565C9AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{FBB294DA-99F8-4BEA-8296-B256CCA9145C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBB294DA-99F8-4BEA-8296-B256CCA9145C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBB294DA-99F8-4BEA-8296-B256CCA9145C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0C92844-40A6-43E4-BA92-0868F0188F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C92844-40A6-43E4-BA92-0868F0188F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C92844-40A6-43E4-BA92-0868F0188F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C92844-40A6-43E4-BA92-0868F0188F4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6D515D7-DAED-47EA-B385-41D241F9023A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D515D7-DAED-47EA-B385-41D241F9023A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D515D7-DAED-47EA-B385-41D241F9023A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D515D7-DAED-47EA-B385-41D241F9023A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3630789-3F53-4036-B0B5-A9DB9EACA6C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3630789-3F53-4036-B0B5-A9DB9EACA6C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3630789-3F53-4036-B0B5-A9DB9EACA6C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3630789-3F53-4036-B0B5-A9DB9EACA6C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1E53DA8-0723-40F4-A306-EEC628FFFA56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E53DA8-0723-40F4-A306-EEC628FFFA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E53DA8-0723-40F4-A306-EEC628FFFA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E53DA8-0723-40F4-A306-EEC628FFFA56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BC5E6E-A9B1-46C2-9531-FCF39565C9AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BC5E6E-A9B1-46C2-9531-FCF39565C9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BC5E6E-A9B1-46C2-9531-FCF39565C9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BC5E6E-A9B1-46C2-9531-FCF39565C9AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
