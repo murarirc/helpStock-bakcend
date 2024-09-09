@@ -3,7 +3,38 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< Updated upstream
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpStockApp.Domain", "HelpStockApp.Domain\HelpStockApp.Domain.csproj", "{FBB294DA-99F8-4BEA-8296-B256CCA9145C}"
+=======
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelpStockApp.Domain", "HelpStockApp.Domain\HelpStockApp.Domain.csproj", "{FBB294DA-99F8-4BEA-8296-B256CCA9145C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelpStockApp.Domain.Test", "HelpStockApp.Domain.Test\HelpStockApp.Domain.Test.csproj", "{A0C92844-40A6-43E4-BA92-0868F0188F4D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FBB294DA-99F8-4BEA-8296-B256CCA9145C} = {FBB294DA-99F8-4BEA-8296-B256CCA9145C}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelpStockApp.API", "HelpStockApp.API\HelpStockApp.API.csproj", "{D6D515D7-DAED-47EA-B385-41D241F9023A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C1E53DA8-0723-40F4-A306-EEC628FFFA56} = {C1E53DA8-0723-40F4-A306-EEC628FFFA56}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelpStockApp.Infra.Data", "HelpStockApp.Infra.Data\HelpStockApp.Infra.Data.csproj", "{A3630789-3F53-4036-B0B5-A9DB9EACA6C7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FBB294DA-99F8-4BEA-8296-B256CCA9145C} = {FBB294DA-99F8-4BEA-8296-B256CCA9145C}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelpStockApp.Infra.IOC", "HelpStockApp.Infra.IOC\HelpStockApp.Infra.IOC.csproj", "{C1E53DA8-0723-40F4-A306-EEC628FFFA56}"
+	ProjectSection(ProjectDependencies) = postProject
+		{87BC5E6E-A9B1-46C2-9531-FCF39565C9AB} = {87BC5E6E-A9B1-46C2-9531-FCF39565C9AB}
+		{A3630789-3F53-4036-B0B5-A9DB9EACA6C7} = {A3630789-3F53-4036-B0B5-A9DB9EACA6C7}
+		{FBB294DA-99F8-4BEA-8296-B256CCA9145C} = {FBB294DA-99F8-4BEA-8296-B256CCA9145C}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelpStockApp.Application", "HelpStockApp.Application\HelpStockApp.Application.csproj", "{87BC5E6E-A9B1-46C2-9531-FCF39565C9AB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FBB294DA-99F8-4BEA-8296-B256CCA9145C} = {FBB294DA-99F8-4BEA-8296-B256CCA9145C}
+	EndProjectSection
+>>>>>>> Stashed changes
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
